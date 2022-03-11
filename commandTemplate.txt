@@ -1,0 +1,18 @@
+import { ICommand } from "wokcommands";
+
+export default {
+    aliases: [],
+    category: "",
+    slash: "both",
+    cooldown: "5s",
+    hidden: false,
+    callback({ message, interaction, client }) {
+        if (message) {
+            
+        }
+
+        if (interaction) {
+            
+        }
+    }
+} as ICommand

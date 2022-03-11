@@ -1,0 +1,34 @@
+{
+  "name": "typescript-bot-template",
+  "version": "1.0.0",
+  "description": "A typescript discord.js bot template with WOKCommands implemented.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epicsterrrr/typescript-bot-template.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Epicster",
+    "email": "epicsterpog@gmail.com",
+    "url": "https://dev.epicster.net"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epicsterrrr/typescript-bot-template/issues"
+  },
+  "homepage": "https://github.com/epicsterrrr/typescript-bot-template#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "fs-extra": "^10.0.1",
+    "ts-node": "^10.7.0",
+    "wokcommands": "^1.5.3"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "typescript": "^4.6.2"
+  }
+}
